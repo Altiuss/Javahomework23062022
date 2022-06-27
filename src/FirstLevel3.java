@@ -2,8 +2,8 @@
 
 public class FirstLevel3 {
     public static void main(String[] args) {
-        int[] array = {10, 3, 23, 5, -9};
-        System.out.println(returnSum(array));
+
+        System.out.println(returnSum(new int[] {10, 3, 23, 5, -9}));
     }
 
     private static int returnSum(int[] array) {
