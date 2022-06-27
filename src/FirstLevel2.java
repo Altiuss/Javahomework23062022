@@ -14,14 +14,14 @@ public class FirstLevel2 {
     }
 
     private static int returnBigestElement(int[] array) {
-        int max = array[0];
+        int idx = 0;
         for (int i = 1; i < array.length; i++) {
-            if (array[i] > max) {
-                max = array[i];
+            if (array[i] > array[idx]) {
+                idx = i;
 //
             }
         }
-        return max;
+        return idx;
     }
 
 }
